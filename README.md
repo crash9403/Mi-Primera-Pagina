@@ -48,4 +48,24 @@ Bucles: for, while, do...while, y los iterativos for...of (iterables) y for...in
 
 **R:/** Mejora legibilidad, mantenimiento y reduce errores. Nombres buenos comunican intención (totalPrecio, obtenerUsuario()), facilitan trabajar en equipo y hacen el código auto-documentado.
 
+### 11. ¿Qué es una variable de entorno y por qué son importantes?
 
+**R:/** Son valores externos al código (ej. claves, URLs, flags) que se leen en tiempo de ejecución/compilación. Evitan hardcodear secretos y permiten configurar según ambiente (dev, test, prod).
+En Node.js: process.env.API_KEY.
+En front (build tools): prefijos como VITE_/NEXT_PUBLIC_ para exponerlas de forma segura en tiempo de build (¡nunca metas secretos del lado del cliente!).
+
+### 12. ¿Qué son las herramientas de desarrollo de Chrome y cómo se accede?
+
+**R:/** Conjunto de utilidades para depurar y perfilar sitios: DOM, estilos, consola, red, rendimiento, almacenamiento, etc.
+
+### 13. ¿Qué se puede hacer en el panel “Elements”?
+
+**R:/** Inspeccionar y editar el DOM y CSS en vivo, ver el Box Model, reglas aplicadas y computadas, activar/forzar estados (:hover), revisar Event Listeners, y medir layout. Sirve para probar estilos rápidamente.
+
+### 14. ¿Cómo se utiliza el panel “Console” y para qué es útil?
+
+**R:/** Permite ejecutar JS al vuelo y ver mensajes de console.*:
+console.log, warn, error, table, dir, time/timeEnd, además de capturar errores, definir variables temporales ($0 elemento seleccionado), y depurar con debug(fn). Útil para pruebas rápidas y diagnóstico.
+
+### 15. ¿Qué información se obtiene del panel “Network” y por qué es importante?
+**R:/** Muestra todas las solicitudes: método, URL, código de estado, cabeceras, payload, respuesta, tamaño, tiempos (waterfall), caché y compresión. Es clave para depurar APIs, CORS, latencias, fallos 4xx/5xx y optimizar rendimiento (throttling, carga diferida).
