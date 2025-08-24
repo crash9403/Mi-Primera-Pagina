@@ -24,3 +24,28 @@
 
 **R:/** Una propiedad es la característica que ajustas con un valor: propiedad: valor;.
 Comunes: color, background, font-family, font-size, font-weight, margin, padding, border, width, height, display, position, top/right/bottom/left, flex, grid, gap, justify-content, align-items, border-radius, box-shadow, z-index, opacity.
+
+### 6. ¿Qué es un selector en CSS y cuáles tipos existen?
+
+**R:/** El selector indica a qué elementos aplicar estilos.
+Tipos: universal *, de tipo p, de clase .card, de id #header, de atributo [type="email"], combinadores (descendiente div p, hijo ul > li, hermano adyacente h1 + p, hermano general h1 ~ p), pseudo-clases :hover, :focus, :nth-child(2), :not(...), y pseudo-elementos ::before, ::after, ::placeholder.
+
+### 7. ¿Qué es JavaScript y cómo añade interactividad?
+
+**R:/** Es el lenguaje de programación del navegador. Permite manipular el DOM, responder a eventos y comunicarse con servidores
+
+### 8. ¿Cuáles son los tipos de datos primitivos en JavaScript?
+
+**R:/** string, number (incluye NaN e infinitos), boolean, undefined, null, symbol, bigint. (Son inmutables.)
+
+### 9. ¿Cómo funcionan if/else, switch y bucles en JavaScript?
+
+**R:/** if/else: ejecuta bloques según una condición.
+switch: elige caso por valor.
+Bucles: for, while, do...while, y los iterativos for...of (iterables) y for...in (propiedades enumerables). Usa break/continue para controlar el flujo.
+
+### 10. ¿Por qué es importante usar nombres significativos para variables y métodos?
+
+**R:/** Mejora legibilidad, mantenimiento y reduce errores. Nombres buenos comunican intención (totalPrecio, obtenerUsuario()), facilitan trabajar en equipo y hacen el código auto-documentado.
+
+
